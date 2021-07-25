@@ -4,7 +4,7 @@
         "version": "PTDL_v1",
         "update_url": null
     },
-    "exported_at": "2021-07-17T19:43:13+01:00",
+    "exported_at": "2021-07-25T14:05:31+01:00",
     "name": "FiveM",
     "author": "parker@parkervcp.com",
     "description": "A new FiveM egg for the latest builds due to recent changes in FiveM",
@@ -32,10 +32,10 @@
             "name": "fivem license",
             "description": "Required to start the service. Get your keys at https:\/\/keymaster.fivem.net\/",
             "env_variable": "FIVEM_LICENSE",
-            "default_value": "place-key-here",
+            "default_value": "cfxk_fFMYowVYdGL9it11mg8C_420999",
             "user_viewable": true,
             "user_editable": true,
-            "rules": "required|string|max:32"
+            "rules": "string"
         },
         {
             "name": "Max Players",
@@ -44,7 +44,7 @@
             "default_value": "48",
             "user_viewable": true,
             "user_editable": true,
-            "rules": "required|integer|between:1,48"
+            "rules": "integer|between:1,48"
         },
         {
             "name": "Server Hostname",
@@ -53,7 +53,7 @@
             "default_value": "SneakyHub FXServer",
             "user_viewable": true,
             "user_editable": true,
-            "rules": "required|string"
+            "rules": "string"
         },
         {
             "name": "fivem version",
@@ -62,7 +62,7 @@
             "default_value": "latest",
             "user_viewable": true,
             "user_editable": true,
-            "rules": "required|string|max:50"
+            "rules": "string|max:50"
         },
         {
             "name": "Download Link",
@@ -80,7 +80,7 @@
             "default_value": "none",
             "user_viewable": true,
             "user_editable": true,
-            "rules": "required|string"
+            "rules": "string"
         },
         {
             "name": "txAdmin Port",
@@ -89,7 +89,7 @@
             "default_value": "40120",
             "user_viewable": true,
             "user_editable": true,
-            "rules": "required|string|max:20"
+            "rules": "string|max:20"
         },
         {
             "name": "Enable txadmin",
@@ -98,7 +98,7 @@
             "default_value": "0",
             "user_viewable": true,
             "user_editable": true,
-            "rules": "required|bool"
+            "rules": "bool"
         }
     ]
 }
