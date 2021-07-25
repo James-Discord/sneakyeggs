@@ -30,7 +30,7 @@
     "variables": [
         {
             "name": "fivem license",
-            "description": "Required to start the service. Get your keys at https:\/\/keymaster.fivem.net\/",
+            "description": "Required to start the FiveM. Get your keys at https:\/\/keymaster.fivem.net\/",
             "env_variable": "FIVEM_LICENSE",
             "default_value": "place-key-here",
             "user_viewable": true,
@@ -39,7 +39,7 @@
         },
         {
             "name": "Max Players",
-            "description": "Set the fivem max play count",
+            "description": "Set the fivem max play count for your server!",
             "env_variable": "MAX_PLAYERS",
             "default_value": "48",
             "user_viewable": true,
@@ -56,7 +56,7 @@
             "rules": "required|string"
         },
         {
-            "name": "fivem version",
+            "name": "FiveM Version",
             "description": "The fivem version that is to be installed.\r\n\r\nan example is `1383-e5ea040353ce1b8bc86e37982bf5d888938e3096`\r\n\r\nYou can the latest version from here - https:\/\/runtime.fivem.net\/artifacts\/fivem\/build_proot_linux\/master\/",
             "env_variable": "FIVEM_VERSION",
             "default_value": "latest",
@@ -93,7 +93,7 @@
         },
         {
             "name": "Enable txadmin",
-            "description": "Enables txadmin.\r\n\r\nset to 1 to enable. (default is 0 for false)",
+            "description": "Enables txadmin.\r\n\r\nset to 1 to enable. (default is 0 for false and is Optional to enable)",
             "env_variable": "TXADMIN_ENABLE",
             "default_value": "0",
             "user_viewable": true,
